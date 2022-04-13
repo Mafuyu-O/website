@@ -1,0 +1,194 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+header{
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: #00CC99;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+header a {
+    color: inherit;
+    text-decoration: none;
+}
+.header_logo{
+    float: left;
+    margin: 10px 0px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.header_list li{
+    list-style: none;
+    float: left;
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.black_back{
+    width: 100%;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    top: 60px;
+    margin-bottom: 100px;
+}
+.black_back img{
+    width: 100%;
+    display: block;
+    opacity: 0.7;
+}
+.name{
+    display: block;
+    color: white;
+    font-size: 50px;
+    font-family: 'Caveat', cursive;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.sub{
+    display: block;
+    color: white;
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+    position: absolute;
+    top: 50%;
+    left: 10.2%;
+}
+#block {
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+    background-color: #DDDDDD;
+    position: relative;
+}
+#block p{
+    position: absolute;
+    color: #333333;
+    font-family: Times;
+    z-index: 1;
+    opacity: 10;
+}
+.big_title {
+    font-size: 100px;
+    top: 20px;
+    left: 200px;
+}
+
+.small_title {
+    font-size: 70px;
+    top: 45px;
+    left: 268px;
+}
+.diaries {
+    top: 180px;
+    left: 180px;
+    width: 80%;
+    height: 400px;
+    position: absolute;
+}
+.diary {
+    top: 20px;
+    left: 30px;
+    width: 93%;
+    height: 348px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: absolute;
+}
+.diary .date p {
+    font-size: 40px;
+}
+.diary .date {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    border-bottom: 1px solid gray;
+}
+.diary .contents p {
+    top: 70px;
+    left: 10px;
+    position: absolute;
+    font-size: 30px;
+}
+footer {
+    background-color: gray;
+    width: 100%;
+    height: 100px;
+}
+footer .contents {
+    width: 100%;
+    height: 75px;
+}
+footer .Contact{
+    float: left;
+    font-family: Impact;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+footer .contact_method{
+    float: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+footer .copyright {
+    width: 100%;
+    border-top: 1px solid black;
+    padding-top: 3px;
+    text-align: center;
+}
